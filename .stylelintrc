@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["layer", "extends", "include", "tailwind"]
+      }
+    ],
+    "block-no-empty": null,
+    "no-descending-specificity": null,
+    "no-invalid-position-at-import-rule": null,
+    "unit-allowed-list": ["em", "rem", "s", "px", "%", "vw", "vh"],
+    "value-keyword-case": null
+  }
+}
